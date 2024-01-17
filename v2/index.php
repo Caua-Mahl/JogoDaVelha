@@ -1,4 +1,7 @@
 <?php
+require_once __DIR__ . '/study/constantes.php';
+require_once __DIR__ . '/study/variaveis.php';
+
 do {
     $jogador1 = readline('Jogador 1 (X)- Digite seu nome: ');
     $jogador2 = readline('Jogador 2 (O)- Digite seu nome: ');
